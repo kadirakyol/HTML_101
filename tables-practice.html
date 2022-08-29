@@ -7,6 +7,60 @@
     <title>Yazılım Kursları!</title>
   </head>
   <body>
-    test
+    <h1>Yazılım Kursları!</h1>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Fotoğraf</th>
+          <th>Kursun adı</th>
+          <th>Açıklama</th>
+          <th>Geliştirme türü</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="data:image/png;base64,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"
+              width="200"
+              height="200"
+              alt=""
+            />
+          </td>
+          <td>Web Geliştirme Eğitimi</td>
+          <td>0'dan başlayarak Web Geliştirme uzmanı olun!</td>
+          <td>Web</td>
+          <td><a href="#" target="_blank">Kursu İncele!</a></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://unity.com/sites/default/files/styles/social_media_sharing/public/2020-02/unity-teaser-768x3811x.jpg?h=db311ae7&itok=VrSIyERg"
+              width="200"
+              height="200"
+              alt=""
+            />
+          </td>
+          <td>Unity Geliştirme Eğitimi</td>
+          <td>0'dan başlayarak Unity uzmanı olun!</td>
+          <td rowspan="2">Oyun</td>
+          <td><a href="#" target="_blank">Kursu İncele!</a></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="data:image/png;base64,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"
+              width="200"
+              height="200"
+              alt=""
+            />
+          </td>
+          <td>Unreal Engine 5 Eğitimi</td>
+          <td>0'dan başlayarak Unreal Engine uzmanı olun!</td>
+          <td><a href="#" target="_blank">Kursu İncele!</a></td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
